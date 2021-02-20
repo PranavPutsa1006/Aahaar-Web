@@ -403,7 +403,7 @@ button:focus{
 	margin: 0px;
 }
 
-.inner-menu-box{}
+/* .inner-menu-box{} */
 .inner-menu-box .nav-pills .nav-link.active{
 	background: #d65106;
 }
@@ -724,7 +724,7 @@ button:focus{
     line-height: 50px;
     display: inline-block;
     padding: 0 10px;
-    float: left;
+    /* float: left; */
     width: 100%;
 	border: none;
 	cursor: pointer;
