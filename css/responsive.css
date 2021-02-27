@@ -1,6 +1,4 @@
-/* only small desktops */
-/* tablets */
-/* only small tablets */
+
 @media only screen and (min-width: 992px) and (max-width: 1180px) {
 	.footer-area h3{
 		font-size: 18px;
