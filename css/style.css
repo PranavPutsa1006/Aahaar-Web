@@ -774,7 +774,7 @@ th {
   border-right: 1px solid #343a45;
   font-size:23px;
   font-weight: 100;
-  padding:15px;
+  padding:12px;
   text-align:left;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align:middle;
@@ -866,7 +866,17 @@ td.text-center-subhead {
     background:rgb(43, 175, 228);
   }
 
-
+/*******************Search***************/
+#myInput {
+    background-image: url('/css/searchicon.png'); 
+    background-position: 20px 12px; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+  }
 
 
 
