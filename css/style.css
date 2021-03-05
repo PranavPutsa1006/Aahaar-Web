@@ -670,11 +670,11 @@ div.table-title {
 
 /*** Table Styles **/
 
-.table-fill {
+#table-fill {
   background: white;
   border-radius:3px;
   border-collapse: collapse;
-  height: 320px;
+  height: 120px;
   margin: auto;
   max-width: 900px;
   padding:5px;
@@ -784,8 +784,8 @@ td.text-center-subhead {
 
 /*******************Search***************/
 #myInput {
-    background-image: url('/css/searchicon.png'); 
-    background-position: 20px 12px; 
+    /* background-image: url('/css/searchicon.png');  */
+    background-position: 50px 12px; 
     background-repeat: no-repeat; 
     width: 100%; 
     font-size: 16px; 
