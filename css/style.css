@@ -683,7 +683,7 @@ div.table-title {
   animation: float 5s infinite;
 }
  
-tablepredict {
+#tablepredict {
     background: white;
     border-radius:3px;
     border-collapse: collapse;
