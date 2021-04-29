@@ -80,7 +80,267 @@
 						<h2>Weekly Menu</h2>
 						<p>Predict the prices of the vegetables that you will use in your menu</p>
 						<br>
-						<button class="btn btn-common">Predict</button>
+						<!--<button class="btn btn-common">Predict</button>-->
+
+						<div class="heading-title text-center">
+		<script>
+			function hideTable(){
+			document.getElementById('tablepredict').style.visibility = "hidden";
+			}
+			function showTable(){
+			document.getElementById('tablepredict').style.visibility = "visible";
+			}
+			
+		</script>
+			<input class="btn btn-common" type='button' onClick='javascript:showTable();' value='Predict'>
+			<input class="btn btn-common" type='button' onClick='javascript:hideTable();' value='Hide'><br>
+			<table id='tablepredict' border=1 class="heading-title text-center">
+			<!--<tr><th>SNO</th><th>NAME</th><th>ADDRESS</th></tr>
+			<tr><td> 1</td><td> Angelina</td><td> Delhi </td></tr>
+			<tr><td> 2</td><td> Simran </td><td> Mumbai </td></tr>
+			<tr><td> 3</td><td> Sania </td><td> Chennai </td></tr>
+			<tr><td> 4</td><td> Martina </td><td> Kolkata </td></tr>-->
+			<br>
+			<thead>
+					<tr>
+						<th class="text-center">Ingredient</th>
+						<th class="text-center">Price</th>
+					</tr>
+				</thead>
+				<tbody class="table-hover">
+					<tr>
+						<td style=min-width:50px>Ash Gourd</td>
+						<td style=min-width:50px>13</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Baby corn</td>
+						<td style=min-width:50px>26</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Beans</td>
+						<td style=min-width:50px>25</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Beetroot</td>
+						<td style=min-width:50px>43</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Bottle gourd</td>
+						<td style=min-width:50px>15</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Brinjal</td>
+						<td style=min-width:50px>24</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Cabbage</td>
+						<td style=min-width:50px>40</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Capsicum</td>
+						<td style=min-width:50px>24</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Carrot</td>
+						<td style=min-width:50px>41</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Cauliflower</td>
+						<td style=min-width:50px>31</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Chana</td>
+						<td style=min-width:50px>164</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Chana Dal</td>
+						<td style=min-width:50px>160</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Chow Chow</td>
+						<td style=min-width:50px>19</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Coccinia</td>
+						<td style=min-width:50px>18</td>
+
+					</tr>
+					<tr>
+						<td style=min-width:50px>Coriander</td>
+						<td style=min-width:50px>23</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Cucumber</td>
+						<td style=min-width:50px>10</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Drumstick</td>
+						<td style=min-width:50px>64</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Horse gram</td>
+						<td style=min-width:50px>321</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Knol khol</td>
+						<td style=min-width:50px>27</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Ladies Finger</td>
+						<td style=min-width:50px>33</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Lobia</td>
+						<td style=min-width:50px>336</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Masoor Dal</td>
+						<td style=min-width:50px>158</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Moong</td>
+						<td style=min-width:50px>115</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Moong Dal</td>
+						<td style=min-width:50px>106</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Onion</td>
+						<td style=min-width:50px>40</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Palak</td>
+						<td style=min-width:50px>26</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Paneer</td>
+						<td style=min-width:50px>293</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Peanut</td>
+						<td style=min-width:50px>567</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Peas</td>
+						<td style=min-width:50px>70</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Potato</td>
+						<td style=min-width:50px>100</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Pumpkin</td>
+						<td style=min-width:50px>26</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Radish</td>
+						<td style=min-width:50px>16</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Rajma</td>
+						<td style=min-width:50px>165</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Rice</td>
+						<td style=min-width:50px>129</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Ridge Gourd</td>
+						<td style=min-width:50px>46</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Sabudana</td>
+						<td style=min-width:50px>354</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Soya chunks</td>
+						<td style=min-width:50px>330</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Sweet corn</td>
+						<td style=min-width:50px>86</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Sweet potato</td>
+						<td style=min-width:50px>86</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Tomato</td>
+						<td style=min-width:50px>18</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Toor Dal</td>
+						<td style=min-width:50px>134</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Turnip</td>
+						<td style=min-width:50px>28</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Urad Dal</td>
+						<td style=min-width:50px>350</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Vermicelli</td>
+						<td style=min-width:50px>157</td>
+					
+					</tr>
+					<tr>
+						<td style=min-width:50px>Wheat (1 roti)</td>
+						<td style=min-width:50px>137</td>
+						
+					</tr>
+					<tr>
+						<td style=min-width:50px>Yam</td>
+						<td style=min-width:50px>118</td>
+						
+					</tr>
+				</tbody>
+
+			</table>
 					</div>
 				</div>
 			</div>

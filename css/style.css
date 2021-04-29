@@ -683,6 +683,19 @@ div.table-title {
   animation: float 5s infinite;
 }
  
+tablepredict {
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 120px;
+    margin: auto;
+    max-width: 900px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+  }
+
 th {
   color:white;;
   background:rgb(43, 175, 228);
